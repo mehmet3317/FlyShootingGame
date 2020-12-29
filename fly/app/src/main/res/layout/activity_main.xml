@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginLeft="25dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: "
+        android:id="@+id/score"
+        android:layout_marginBottom="20dp"
+        android:textSize="40dp" />
+
+    <ImageButton
+        android:id="@+id/res1"
+        android:layout_width="100dp"
+        android:layout_height="125dp"
+        android:background="@drawable/bug"
+        android:layout_below="@+id/score"
+        android:layout_marginHorizontal="10dp"
+        />
+    <ImageButton
+        android:id="@+id/res2"
+        android:layout_width="100dp"
+        android:layout_height="125dp"
+        android:background="@drawable/bug"
+        android:layout_below="@+id/res1"
+        android:layout_marginHorizontal="10dp"
+
+        />
+    <ImageButton
+        android:id="@+id/res3"
+        android:layout_width="100dp"
+        android:layout_height="125dp"
+        android:background="@drawable/bug"
+        android:layout_below="@+id/res2"
+        android:layout_marginHorizontal="10dp"
+
+        />
+    <ImageButton
+        android:id="@+id/res4"
+        android:layout_width="100dp"
+        android:layout_height="125dp"
+        android:background="@drawable/bug"
+        android:layout_below="@+id/res3"
+        android:layout_marginHorizontal="10dp"
+
+        />
+    <ImageButton
+        android:id="@+id/res5"
+        android:layout_width="100dp"
+        android:layout_height="125dp"
+        android:background="@drawable/bug"
+        android:layout_below="@id/score"
+        android:layout_toRightOf="@+id/res1"
+        android:layout_marginHorizontal="10dp"
+
+        />
+    <ImageButton
+        android:id="@+id/res6"
+        android:layout_width="100dp"
+        android:layout_height="125dp"
+        android:background="@drawable/bug"
+        android:layout_below="@id/res5"
+        android:layout_toRightOf="@+id/res2"
+        android:layout_marginHorizontal="10dp"
+
+
+        />
+    <ImageButton
+        android:id="@+id/res7"
+        android:layout_width="100dp"
+        android:layout_height="125dp"
+        android:background="@drawable/bug"
+        android:layout_below="@+id/res6"
+        android:layout_toRightOf="@+id/res3"
+        android:layout_marginHorizontal="10dp"
+
+        />
+    <ImageButton
+        android:id="@+id/res8"
+        android:layout_width="100dp"
+        android:layout_height="125dp"
+        android:background="@drawable/bug"
+        android:layout_below="@+id/res7"
+        android:layout_toRightOf="@id/res4"
+        android:layout_marginHorizontal="10dp"
+
+        />
+    <ImageButton
+        android:id="@+id/res9"
+        android:layout_width="100dp"
+        android:layout_height="125dp"
+        android:background="@drawable/bug"
+        android:layout_below="@+id/score"
+        android:layout_toRightOf="@id/res5"
+        />
+    <ImageButton
+        android:id="@+id/res10"
+        android:layout_width="100dp"
+        android:layout_height="125dp"
+        android:background="@drawable/bug"
+        android:layout_below="@+id/res9"
+        android:layout_toRightOf="@id/res6"
+        />
+    <ImageButton
+        android:id="@+id/res11"
+        android:layout_width="100dp"
+        android:layout_height="125dp"
+        android:background="@drawable/bug"
+        android:layout_below="@+id/res10"
+        android:layout_toRightOf="@id/res7"
+        />
+    <ImageButton
+        android:id="@+id/res12"
+        android:layout_width="100dp"
+        android:layout_height="125dp"
+        android:background="@drawable/bug"
+        android:layout_below="@+id/res11"
+        android:layout_toRightOf="@id/res8"
+        />
+
+
+
+</RelativeLayout>
